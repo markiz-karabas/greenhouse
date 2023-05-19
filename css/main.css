@@ -1,0 +1,163 @@
+@import "./reset.css";
+@import "../fonts/EuclidCircularB/stylesheet.css";
+
+body {
+    /*background-color: #a5a99a30;*/
+    font-family: 'Euclid Circular B', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.header {
+}
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*header*/
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.header__logo {
+
+}
+.logo-icon {
+}
+.logo-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #084a03;
+}
+/*menu*/
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*выравнивает по вертикали*/
+}
+.menu__list {
+    display: flex;
+    column-gap: 48px;
+    margin-right: 327px;
+}
+.menu__list-item {
+    
+}
+.menu__list-link {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #656361;
+}
+.menu__list-link--active { /*активный элемент*/
+    font-weight: 600;
+    color: #bd4c06;
+}
+.menu__list-link:hover {
+    font-weight: 600;
+    color: #bd4c06;
+}
+
+/*signin*/
+.menu__signin {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    /*column-gap: 30px; /*че с адаптивом тогда?*/
+}
+.signin-item {
+    
+}
+.signin-btn--active {
+    font-weight: 600;
+    color: #bd4c06;
+    background: #72824331;
+    border-radius: 100px;
+    padding: 5px 20px;
+   
+}
+.signin-btn:hover {
+    font-weight: 600;
+    color: #bd4c06;
+}
+.signin-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+/*cover*/
+.cover {
+    position: relative;
+    min-height: 720px;
+    padding-top: 102px;
+    background-color: #77a21a46;
+    color: #656361;
+}
+.container {
+}
+.cover-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover; /*чтоб не деформ пропорции*/
+}
+.cover__wrapper {
+    
+    width: 50%;
+}
+.find-link {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #0165C3;
+}
+.find-link::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    vertical-align:bottom; /*выравнивание по вертикали*/
+    background-image: url(../img/icons/star.svg);
+}
+
+.cover__title {
+    max-width: 492px;
+    margin: 24px 0 30px;
+    font-size: 60px;
+    line-height: 1.25;
+    color: #010101;
+}
+.cover__text {
+    max-width: 492px;
+    font-size: 18px;
+    line-height: 1.8; 
+    color: #413f3e;
+    margin-bottom: 60px;
+}
+/*search-bar*/
+
+.search-bar {
+    padding: 15px 32px 15px 11px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 40px 80px -20px rgba(104, 70, 42, 0.05);
+    border-radius: 1000px;
+}
+.search-btn {
+    
+    font-size: 16px;
+    line-height: 20px;
+    padding: 22px 35px;
+    height: 64px;
+    box-sizing: 50px;
+
+    color: #FFFFFF;
+    background: #084a03;
+    border-radius: 1000px;
+}
