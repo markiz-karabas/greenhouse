@@ -246,10 +246,17 @@ body {
     text-align: center;
 }
 .partners__board {
+    display: flex;
+    justify-content: space-between;
     margin-top: 25px;
     min-height: 118px;
-    background-color: #b2b8b218;
+    
 }
+.partners-logo {
+    display: block;
+    align-items: center; /*выравнивание по вертикали*/
+}
+
 /*advantages*/
 .advantages {
     background-color: #77a21a46;
@@ -305,7 +312,6 @@ body {
     font-size: 20px;
     line-height: 25px;
     color: #010101;
-
 }
 .advantage__cards-text {
     margin: 16px 0 24px;
@@ -318,4 +324,152 @@ body {
     line-height: 20px;
     text-transform: capitalize;
     color: #0165C3;
+}
+/*subscribe*/
+.subscribe {
+}
+.container {
+}
+.subscribe__wrapper {
+    max-width: 564px;
+    margin: 100px auto;
+    padding: 80px auto;
+}
+.subscribe-title {
+    margin-bottom: 25px;
+    font-size: 40px;
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: -0.005em;
+    text-transform: capitalize;
+    color: #010101;
+}
+.subscribe-text {
+    margin-bottom: 48px;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    color: #656361;
+}
+.subscribe__form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #D4CBC4;
+    border-radius: 1000px;
+
+}
+.subscribe-input {
+    width: 70%;
+    padding: 0 20px;
+}
+.subscribe-input::before {  /*не работает, надо вставить иконку в placeholder*/
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icons/sms.svg);
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+}
+.subscribe-btn {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 22px 35px;
+    height: 64px;
+    box-sizing: 50px;
+    color: #FFFFFF;
+    background: #084a03;
+    border-radius: 1000px;
+}
+/*footer*/
+.footer {
+}
+.container {
+}
+.footer__wrapper{
+    
+}
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 72px;
+}
+.footer__info {
+    width: 30%;
+}
+.footer-logo {
+    
+}
+.logo-text {
+    
+}
+.footer-text {
+    margin: 30px auto 40px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #656361;
+}
+.social-link__list {
+    display: flex;
+    gap: 21px;
+    
+}
+.fb {
+}
+.social-link__item {
+}
+.social-link__logo {
+}
+.ig {
+}
+.tw {
+}
+.ytb {
+}
+.footer__nav-bar {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+.company__link {
+}
+
+.company-nav__list {
+}
+.company-nav__item {
+}
+.company-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #656361;
+}
+.company__about {
+}
+.company-title {
+    margin-bottom: 34px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #010101;
+}
+.footer__contacts {
+    width: 268px;
+}
+.address {
+    margin-top: 20px;
+}
+.footer__botton {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 24px auto;
+    text-align: center;
+}
+.creater-mark {
+    margin: 24px auto;
+    text-align: center;
+    font-size: 20px;
+    color: #010101;
 }
